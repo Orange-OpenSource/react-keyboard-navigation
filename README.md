@@ -1,5 +1,5 @@
 # Welcome to react-keyboard-navigation 👋
-![Version](https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.0.3-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > A React component to manage the navigation declaratively, such as on smart feature phone applications, e.g., KaiOS.
@@ -115,14 +115,14 @@ The demonstrations are based on the code provided by KaiOS in the [sample-react 
 
 ### Simple UI
 UI example without container and with 2 focusable elements (1 input and 1 span):
-![](./docs/images/todo-simple.png)
+![Simple UI](https://github.com/Orange-OpenSource/react-keyboard-navigation/raw/master/docs/images/todo-simple.png)
 
 See the CodeSandbox example for a simple UI :<br>
 [![Edit Simple UI](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-ui-0tv5g?fontsize=14&hidenavigation=1&theme=dark)
 
 ### More complex UI
 UI example with 2 containers (Input and Todos) and with 3 focusable elements (1 input and 2 span):
-![](./docs/images/todo-complex.png)
+![Comple UI](https://github.com/Orange-OpenSource/react-keyboard-navigation/raw/master/docs/images/todo-complex.png)
 
 See the CodeSandbox example for a more complex UI :<br>
 [![Edit More complex UI](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/more-complex-ui-r9snf?fontsize=14&hidenavigation=1&theme=dark)
