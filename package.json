@@ -1,0 +1,54 @@
+{
+  "name": "react-keyboard-navigation",
+  "version": "0.0.1",
+  "description": "A React component to manage the navigation declaratively, such as on smart feature phone applications, e.g., KaiOS.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd",
+    "docs"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "prepublishOnly": "npm run build",
+    "start": "nwb serve-react-demo",
+    "lint": "eslint .",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "nwb": "0.23.x",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "author": "Yannick Cornaille",
+  "homepage": "https://github.com/Orange-OpenSource/react-keyboard-navigation",
+  "license": "MIT",
+  "repository": "github:Orange-OpenSource/react-keyboard-navigation",
+  "keywords": [
+    "react-component",
+    "navigation",
+    "keyboard",
+    "keypad",
+    "kaios"
+  ]
+}
